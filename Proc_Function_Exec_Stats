@@ -1,3 +1,6 @@
+/**** Note that the DM views that are being queried won't have a row for an object that hasn't been used *****/
+/**** Run this script in the context of the database that the results are needed for ****/
+
 ;WITH base AS (
 	SELECT 
 		pt.object_id
